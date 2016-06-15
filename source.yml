@@ -1,5 +1,8 @@
 name: envire
 
+imports:
+    - github: rock-simulation/package_set
+
 version_control:
 
 #Pure envire packages
