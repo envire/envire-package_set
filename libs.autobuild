@@ -15,6 +15,7 @@ cmake_package 'tools/plugin_manager'
 cmake_package 'tools/smurf'
 
 cmake_package 'slam/maps'
+cmake_package "slam/pcl"
 
 cmake_package 'envire/tutorials'
 

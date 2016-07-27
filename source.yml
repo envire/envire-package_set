@@ -52,3 +52,8 @@ version_control:
     - base/numeric:
         github: envire/base-numeric
         branch: true_normal
+
+    - slam/pcl:
+      github: PointCloudLibrary/pcl
+      branch: master
+      tag: pcl-1.8.0
