@@ -80,6 +80,15 @@ import_package "envire/gdal" do |pkg|
     end
 end
 
+
+cmake_package 'envire/fcl' do |pkg|
+    pkg.define "FCL_BUILD_TESTS","OFF"
+    pkg.define "FCL_USE_SSE","ON"
+end
+
+cmake_package 'envire/libccd'
+
+
 in_flavor 'master','stable' do
     mars_package("simulation/mars/plugins/envire_graphics")
     mars_package("simulation/mars/plugins/envire_physics")

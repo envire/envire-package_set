@@ -49,6 +49,14 @@ version_control:
         github: OSGeo/gdal.git
         branch: 2.1
 
+    - envire/fcl:
+        github: flexible-collision-library/fcl
+        branch: master
+    - envire/libccd:
+        github: danfis/libccd
+        branch: master
+
+
     - base/numeric:
         github: envire/base-numeric
         branch: true_normal

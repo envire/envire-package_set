@@ -1,0 +1,8 @@
+<package>
+  <description brief="libccd -- Library for collision detection between two convex shapes"/>
+  <author>Daniel Fiser</author>
+  <license>3-clause BSD</license>
+  <url>https://github.com/flexible-collision-library/fcl</url>
+  <tags>stable</tags>
+</package>
+
