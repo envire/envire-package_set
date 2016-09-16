@@ -95,5 +95,5 @@ in_flavor 'master','stable' do
     mars_package("simulation/mars/plugins/envire_joints")
     mars_package("simulation/mars/plugins/envire_motors")
     mars_package("simulation/mars/plugins/envire_sensors")
-    mars_package("simulation/mars/plugins/SMURFToSimulation")
+    mars_package("simulation/mars/plugins/envire_smurf_loader")
 end
