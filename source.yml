@@ -56,11 +56,6 @@ version_control:
         github: danfis/libccd
         branch: master
 
-
-    - base/numeric:
-        github: envire/base-numeric
-        branch: true_normal
-
     - slam/pcl:
       github: PointCloudLibrary/pcl
       branch: master
