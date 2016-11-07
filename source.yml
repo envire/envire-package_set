@@ -46,8 +46,8 @@ version_control:
 
 # External library in envire directory
     - envire/gdal:
-        github: OSGeo/gdal.git
-        branch: 2.1
+        github: envire/gdal.git
+        branch: gnm_header
 
     - envire/fcl:
         github: flexible-collision-library/fcl
