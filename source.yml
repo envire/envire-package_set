@@ -2,6 +2,7 @@ name: envire
 
 imports:
     - github: rock-simulation/package_set
+    - github: rock-gui/osgviz-package_set
 
 version_control:
 
