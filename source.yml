@@ -3,6 +3,7 @@ name: envire
 imports:
     - github: rock-simulation/package_set
     - github: rock-gui/osgviz-package_set
+    - github: rock-cpp/package_set
 
 version_control:
 
@@ -36,7 +37,7 @@ version_control:
 
 # Special case for tools/smurf
     - tools/smurf:
-        spacegit: rock-dfki/$PACKAGE_BASENAME
+        spacegit: rock-cpp/$PACKAGE_BASENAME
         branch: master
 
 
