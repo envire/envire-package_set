@@ -39,7 +39,10 @@ version_control:
     - tools/smurf:
         spacegit: rock-cpp/$PACKAGE_BASENAME
         branch: master
-
+    
+    - external/ogdf:
+        github: arneboe/ogdf
+        branch: master
 
 # Added envire packages in base
     - base/.*:
