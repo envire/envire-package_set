@@ -25,6 +25,11 @@ version_control:
         github: envire/slam-orogen-$PACKAGE_BASENAME
         branch: master
 
+# Add envire packages into gui
+    - gui/.*:
+        github: envire/gui-$PACKAGE_BASENAME
+        branch: master
+
 # Added envire packages into simulation
     - simulation/.*:
         github: envire/simulation-$PACKAGE_BASENAME

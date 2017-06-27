@@ -19,6 +19,7 @@ cmake_package 'slam/maps'
 cmake_package "slam/pcl"
 
 cmake_package 'envire/tutorials'
+cmake_package 'gui/vizkit3d_plugin_information'
 
 cmake_package 'external/ogdf' do |pkg|
     pkg.define 'BUILD_SHARED_LIBS', 'ON'
