@@ -57,4 +57,5 @@ in_flavor 'master','stable' do
     mars_package("simulation/mars/plugins/envire_smurf_loader")
     mars_package("simulation/mars/plugins/envire_managers")
     mars_package("simulation/mars/plugins/envire_visual_debug")
+    mars_package("simulation/mars/plugins/envire_graph_loader")
 end
