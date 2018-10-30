@@ -5,7 +5,6 @@
     <author>GDAL developers</author>
     <license>X/MIT</license>
     <url>http://www.gdal.org</url>
-    <depend package="base/cmake" />
     <rosdep name="boost" />
   <tags>stable</tags>
 </package>
