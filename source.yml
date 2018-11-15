@@ -1,7 +1,7 @@
 name: envire
 
 imports:
-    - github: rock-simulation/package_set
+    - github: rock-simulation/simulation-package_set
     - github: rock-gui/osgviz-package_set
     - github: rock-cpp/package_set
 
