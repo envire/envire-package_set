@@ -48,14 +48,3 @@ cmake_package 'envire/fcl' do |pkg|
 end
 
 cmake_package 'envire/libccd'
-
-
-in_flavor 'master','stable' do
-    mars_package("simulation/mars/plugins/envire_graphics")
-    mars_package("simulation/mars/plugins/envire_joints")
-    mars_package("simulation/mars/plugins/envire_sensors")
-    mars_package("simulation/mars/plugins/envire_smurf_loader")
-    mars_package("simulation/mars/plugins/envire_managers")
-    mars_package("simulation/mars/plugins/envire_visual_debug")
-    mars_package("simulation/mars/plugins/envire_graph_loader")
-end
