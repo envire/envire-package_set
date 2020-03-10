@@ -46,7 +46,7 @@ version_control:
         branch: master
     
     - external/ogdf:
-        github: arneboe/ogdf
+        github: ogdf/ogdf
         branch: master
 
 # Added envire packages in base
