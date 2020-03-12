@@ -37,7 +37,7 @@ version_control:
 
 # Added envire packages in tools
     - tools/.*:
-        github: envire/tools-$PACKAGE_BASENAME
+        github: dfki-ric/tools-$PACKAGE_BASENAME
         branch: master
 
 # Special case for tools/smurf
