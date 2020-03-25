@@ -1,6 +1,8 @@
 # envire components
 if package_enabled?('orogen')
-    orogen_package 'envire/orogen/envire_orogen'
+    orogen_package 'envire/orogen/envire_orogen' do |pkg|
+        pkg.env_add_path 'OROGEN_PLUGIN_PATH', File.join(pkg.prefix,'share','orogen','plugins')
+    end
     orogen_package 'envire/orogen/envire_core'
     orogen_package 'envire/orogen/envire_octomap'
     orogen_package 'envire/orogen/envire_pcl'
