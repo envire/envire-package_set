@@ -1,0 +1,25 @@
+From 7656d5c23bd26fdd14b6c802caeb7b7be99facc3 Mon Sep 17 00:00:00 2001
+From: Anna <anna.born@dfki.de>
+Date: Mon, 20 Apr 2020 10:49:02 +0200
+Subject: [PATCH 1/1] fix: backcompatibility with cmake 3.5 (ubuntu 16.04)
+
+---
+ cmake/compiler-specifics.cmake | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git cmake/compiler-specifics.cmake cmake/compiler-specifics.cmake
+index 80c4ce9..fa4e739 100644
+--- cmake/compiler-specifics.cmake
++++ cmake/compiler-specifics.cmake
+@@ -34,7 +34,7 @@ if(CMAKE_CXX_COMPILER_ID MATCHES "GNU|Clang")
+     else()
+       set(available_default_warning_flags "${available_default_warning_flags} -Wno-error=array-bounds")
+     endif()
+-    if(CMAKE_CXX_COMPILER_VERSION VERSION_GREATER_EQUAL 8.0)
++    if((CMAKE_CXX_COMPILER_VERSION VERSION_EQUAL 8.0) OR (CMAKE_CXX_COMPILER_VERSION VERSION_GREATER 8.0)) 
+       set(available_default_warning_flags "${available_default_warning_flags} -Wno-class-memaccess")
+     endif()
+     set(available_default_warning_flags "${available_default_warning_flags} -Wno-error=maybe-uninitialized -Wno-error=unused-but-set-parameter")
+-- 
+2.17.1
+
