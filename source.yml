@@ -42,7 +42,7 @@ version_control:
 
 # Special case for tools/smurf
     - tools/smurf:
-        spacegit: rock-cpp/$PACKAGE_BASENAME
+        github: rock-cpp/$PACKAGE_BASENAME
         branch: master
     
     - external/ogdf:
