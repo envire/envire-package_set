@@ -1,0 +1,7 @@
+envire/gdal:
+    ubuntu:
+        '16.04': nonexistent
+        default: libgdal-dev
+    debian:
+        'jessie,stretch': nonexistent
+        default: libgdal-dev
