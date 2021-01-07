@@ -1,0 +1,1 @@
+Autobuild::Package['slam/octomap'].define  "OCTOVIS_QT5", "OFF"
