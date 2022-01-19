@@ -5,3 +5,4 @@ envire/gdal:
     debian:
         'jessie,stretch': nonexistent
         default: libgdal-dev
+    gentoo: sci-libs/gdal
