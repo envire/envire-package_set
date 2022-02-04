@@ -48,6 +48,7 @@ version_control:
     - external/ogdf:
         github: ogdf/ogdf
         branch: master
+        patches: $AUTOPROJ_SOURCE_DIR/patches/ogdf_cmake_arch.patch
         #parch obsolete with new ogdf release (2022.02)
         #patches: $AUTOPROJ_SOURCE_DIR/patches/ogdf_cmake.patch
 
