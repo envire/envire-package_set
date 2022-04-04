@@ -56,7 +56,7 @@ end
 
 
 cmake_package 'envire/fcl' do |pkg|
-    pkg.define "FCL_BUILD_TESTS","OFF"
+    pkg.define "BUILD_TESTING","OFF"
     pkg.define "FCL_USE_SSE","ON"
 end
 
