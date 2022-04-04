@@ -11,11 +11,16 @@ cmake_package 'envire/envire_urdf' do |pkg|
 end
 cmake_package 'envire/envire_collision'
 cmake_package 'envire/envire_gis'
+
 cmake_package 'envire/envire_collider_mls'
+remove_from_default 'envire/envire_collider_mls'
+
 cmake_package 'envire/envire_visualizer' do |pkg|
     pkg.env_add_path 'VIZKIT_PLUGIN_RUBY_PATH', File.join(pkg.prefix,'lib')
 end
+
 cmake_package 'envire/envire_fcl'
+remove_from_default 'envire/envire_fcl'
 
 cmake_package 'base/boost_serialization'
 cmake_package 'tools/plugin_manager'
