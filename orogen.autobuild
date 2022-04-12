@@ -5,6 +5,7 @@ if package_enabled?('orogen')
     end
     orogen_package 'envire/orogen/envire_core'
     orogen_package 'envire/orogen/envire_octomap'
+    remove_from_default 'envire/orogen/envire_octomap'
     orogen_package 'envire/orogen/envire_pcl'
     orogen_package 'envire/orogen/envire_maps'
     orogen_package 'envire/orogen/envire_exporters'   
