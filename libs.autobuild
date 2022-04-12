@@ -4,6 +4,8 @@ cmake_package 'envire/envire_maps'
 cmake_package 'envire/envire_octomap' do |pkg|
     pkg.env_add_path 'VIZKIT_PLUGIN_RUBY_PATH', File.join(pkg.prefix,'lib')
 end
+remove_from_default 'envire/envire_octomap'
+
 cmake_package 'envire/envire_pcl'
 cmake_package 'envire/envire_smurf'
 cmake_package 'envire/envire_urdf' do |pkg|
@@ -32,6 +34,8 @@ end
 cmake_package "slam/pcl"
 
 cmake_package 'envire/tutorials'
+remove_from_default 'envire/tutorials'
+
 cmake_package 'gui/vizkit3d_plugin_information'
 
 cmake_package 'external/ogdf' do |pkg|
