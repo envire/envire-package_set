@@ -64,7 +64,8 @@ version_control:
 
     - envire/fcl:
         github: flexible-collision-library/fcl
-        branch: master
+        tag: 0.7.0
+
     - envire/libccd:
         github: danfis/libccd
         branch: master
