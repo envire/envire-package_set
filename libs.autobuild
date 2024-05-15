@@ -65,3 +65,6 @@ cmake_package 'envire/fcl' do |pkg|
 end
 
 cmake_package 'envire/libccd'
+
+cmake_package 'envire/envire_types'
+cmake_package 'envire/envire_smurf_loader'

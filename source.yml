@@ -74,3 +74,11 @@ version_control:
       github: PointCloudLibrary/pcl
       branch: master
       tag: pcl-1.8.0
+
+    - envire/envire_types:
+        github: envire/envire-envire_types
+        branch: main
+
+    - envire/envire_smurf_loader:
+        github: envire/envire-envire_smurf_loader
+        branch: main
