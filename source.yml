@@ -40,6 +40,10 @@ version_control:
         github: dfki-ric/tools-$PACKAGE_BASENAME
         branch: master
 
+    - tools/class_loader_melodic:
+      github: dfki-ric/class_loader
+      branch: melodic-devel
+
 # Special case for tools/smurf
     - tools/smurf:
         github: rock-cpp/$PACKAGE_BASENAME

@@ -27,6 +27,7 @@ remove_from_default 'envire/envire_fcl'
 cmake_package 'base/boost_serialization'
 cmake_package 'tools/plugin_manager'
 cmake_package 'tools/smurf'
+cmake_package 'tools/class_loader_melodic'
 
 cmake_package 'slam/maps' do |pkg|
     pkg.env_add_path 'VIZKIT_PLUGIN_RUBY_PATH', File.join(pkg.prefix,'lib')
