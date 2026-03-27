@@ -6,3 +6,5 @@ envire/gdal:
         'jessie,stretch': nonexistent
         default: libgdal-dev
     gentoo: sci-libs/gdal
+qt5svg:
+    debian,ubuntu: libqt5svg5-dev
